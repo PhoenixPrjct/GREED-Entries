@@ -1,4 +1,4 @@
-const entries = require('./entries.json');
+import * as entries from './entries.json';
 let list = [];
 
 function main() {
