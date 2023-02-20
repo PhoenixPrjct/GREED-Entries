@@ -12,6 +12,7 @@ function main() {
             wallet: e.wallet
         };
         list.push(entry);
+        console.log(list)
     });
 
     const tableBody = document.querySelector('#entriesTable tbody');
